@@ -1,9 +1,10 @@
 "use client";
+import User from "./users/page";
 
 export default function Home() {
   return (
     <p>
-      왜 안되는거지?
+      <User/>
     </p>
   );
 }
