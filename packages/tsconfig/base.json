@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "moduleResolution": "node",
+      "target": "ES2017",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "strict": true,
+      "module": "esnext",
+      "resolveJsonModule": true,
+      "jsx": "preserve"
+    }
+  }
