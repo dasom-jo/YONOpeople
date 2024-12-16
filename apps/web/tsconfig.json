@@ -1,5 +1,4 @@
 {
-  "extends": "/Users/jody0/YONOpeople/packages/tsconfig/base.json",
   "compilerOptions": {
     "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
