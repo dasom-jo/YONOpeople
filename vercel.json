@@ -1,5 +1,3 @@
 {
-    "includeFiles": [
-      "packages/tsconfig/base.json"
-    ]
+    "includeFiles": ["packages/**/*"]
   }

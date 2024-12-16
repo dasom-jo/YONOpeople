@@ -6,6 +6,7 @@
       "strict": true,
       "module": "esnext",
       "resolveJsonModule": true,
-      "jsx": "preserve"
+      "jsx": "preserve",
+      "baseUrl": "../.."
     }
   }
