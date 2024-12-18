@@ -15,8 +15,8 @@ module.exports = {
         background: '#DFF5FC',
         clickbtn:"#0083AF",
         basicbtn:'#71C4E0',
-        clickgary:"D9D9D9",
-        basicgray:"#F6F5F5"
+        clickgray:"#D9D9D9",
+        basicgray:"#F6F5F5",
       },
     },
   },
