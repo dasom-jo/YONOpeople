@@ -7,7 +7,7 @@ interface ButtonProps {
 
 export const BasicButton = ({ children }: ButtonProps) => {
   return (
-    <button className="bg-basicbtn p-5 w-64 border-spacing-1 rounded-xl active:bg-clickbtn btn">
+    <button className="bg-basicbtn p-5 w-64 border-spacing-1 rounded-xl active:bg-clickbtn">
       {children}
     </button>
   );
