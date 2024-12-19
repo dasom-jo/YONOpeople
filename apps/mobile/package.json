@@ -11,15 +11,17 @@
   "dependencies": {
     "expo": "~52.0.18",
     "expo-status-bar": "~2.0.0",
-    "react": "18.3.1",
-    "react-native": "0.76.5",
+    "expo-updates": "~0.26.10",
+    "react-native": "^0.76.5",
     "react-native-web": "^0.19.13",
-    "zustand": "^5.0.2",
-    "expo-updates": "~0.26.10"
+    "tailwindcss": "^3.4.17",
+    "zustand": "^5.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@types/react": "~18.3.12",
+    "metro-react-native-babel-preset": "^0.77.0",
+    "nativewind": "^4.1.23",
     "typescript": "^5.3.3"
   },
   "private": true

@@ -1,11 +1,14 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { View, Text, StyleSheet } from "react-native";
+import { BasicButton } from "../../packages/ui/src/BasicButton";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Text style={styles.title}>Hello, World!</Text>
+      <BasicButton style={styles.button} onPress={() => console.log("Button Pressed")}>
+        Click Me
+      </BasicButton>
     </View>
   );
 }
@@ -13,8 +16,16 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#DFF5FC", // 배경색
+  },
+  title: {
+    fontSize: 20,
+    marginBottom: 16,
+    color: "#333", // 텍스트 색상
+  },
+  button: {
+    marginTop: 16, // 버튼 여백
   },
 });
