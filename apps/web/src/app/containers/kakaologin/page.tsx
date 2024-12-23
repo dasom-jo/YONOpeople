@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { View, Button, Text, TextInput, StyleSheet } from "react-native";
 import { kakaoLogin } from "../../../../../../packages/api/src/kakaoAuth";
 
 const LoginScreen = () => {

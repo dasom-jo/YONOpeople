@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { SidebarContainer } from "./containers/Sidebar/page";
 
 export const metadata: Metadata = {
   title: "yonopeople",
@@ -21,28 +22,9 @@ export default function RootLayout({
             <div>YONOPEOPLE</div>
           </header>
 
-          {/* Sidebar */}
+          {/* Sidebar href 가아니라 콘텐츠만 변경 */}
           <nav className="Desk:row-start-2 Desk:row-end-3 Desk:col-start-1 Desk:col-end-2 bg-background Desk:text-2xl Desk:h-full">
-            <ul
-              className="flex flex-col items-start  ml-5 pb-3
-                          Mobile:flex Mobile:flex-row Mobile:items-center Mobile:space-x-4 Mobile:text-sm"
-            >
-              <li className="hover:bg-white p-2 rounded-lg">
-                <a href="/login">로그인</a>
-              </li>
-              <li className="hover:bg-white p-2 rounded-lg">
-                <a href="/weekamount">이주의 금액</a>
-              </li>
-              <li className="hover:bg-white p-2 rounded-lg">
-                <a href="/registeramount">금액 등록</a>
-              </li>
-              <li className="hover:bg-white p-2 rounded-lg">
-                <a href="/calender">캘린더</a>
-              </li>
-              <li className="hover:bg-white p-2 rounded-lg">
-                <a href="/coinboard">코인 보드</a>
-              </li>
-            </ul>
+            <SidebarContainer/>
           </nav>
 
           {/* Main */}
