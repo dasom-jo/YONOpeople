@@ -11,6 +11,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens:{
+        Mobile:{ max: "425px" },
+        Desk:"426px"
+      },
       colors: {
         background: '#DFF5FC',
         clickbtn:"#0083AF",
