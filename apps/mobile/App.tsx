@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     marginBottom: 16,
-    color: "#333", // 텍스트 색상
+    color: "#333", // 텍스트 색상[]
   },
   button: {
     marginTop: 16, // 버튼 여백
