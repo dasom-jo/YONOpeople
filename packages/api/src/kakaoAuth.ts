@@ -1,4 +1,5 @@
 import { Platform } from "react-native";
+// window.KaKao.init("3dcc728645fe0701064e01d001f61d2b")
 
 export async function kakaoLogin(token: string) {
   if (Platform.OS === "web") {

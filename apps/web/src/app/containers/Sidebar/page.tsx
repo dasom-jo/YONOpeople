@@ -2,7 +2,8 @@
 import React from "react";
 import { useRouter } from "next/navigation";
 import { create } from "zustand";
-
+//zustand을 이용한 페이지 변경
+//경로 이동과 상태업데이트 동시에 이루어짐
 const useSidebarStore =  create<{
     activePage: string;
     setActivePage: (page: string) => void;

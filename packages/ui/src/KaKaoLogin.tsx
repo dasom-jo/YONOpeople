@@ -6,7 +6,7 @@ interface ButtonProps {
   style?: object; // 추가 스타일링을 위한 옵션
 }
 
-export const BasicButton = ({ onPress, children, style }: ButtonProps) => {
+export const KakaoLogin = ({ onPress, children, style }: ButtonProps) => {
   return (
     <TouchableOpacity
       style={[styles.button, style]} // 기본 스타일과 외부에서 전달된 스타일 병합
@@ -20,7 +20,7 @@ export const BasicButton = ({ onPress, children, style }: ButtonProps) => {
 
 const styles = StyleSheet.create({
   button: {
-    backgroundColor: "#71C4E0", // 기본 버튼 배경색
+    backgroundColor:"yellow", // 기본 버튼 배경색
     padding: 16,
     borderRadius: 8,
     alignItems: "center",
